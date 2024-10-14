@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--second-color);
+  font-family: 'poppins';
+} 
+
+*:root{
+  --primary-color: #2d2d2d;
+  --second-color: #fff;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: var(--second-color)
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  border: 3px solid var(--second-color);
+}
+
+body, html{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+div.popup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  background-color: #000a;
+  visibility: hidden;
+}
+
+div.popup > div{
+  position: relative;
+  transform: translateY(10%);
+  height: 80vh;
+  width: 80vw;
+}
+
+div.popup  iframe{
+  height: 100%;
+  width: 100%;
+  border: solid 15px #fff;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+div.popup  span.btn-close{
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  position: absolute;
+  display: block;
+  transform: translate(10px, -5px);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #f00;
+}

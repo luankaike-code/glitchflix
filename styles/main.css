@@ -1,0 +1,83 @@
+article.emphasis{
+	display: flex;
+	padding-top: 15vh;
+	padding-inline: 15px;
+	background-color: var(--primary-color);
+	height: 70vh;
+	justify-content: space-evenly;
+}
+
+article.emphasis > aside{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 40%;
+	height: 100%;
+}
+
+article.emphasis > aside > h1{
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+article.emphasis > aside > p{
+	padding-inline: 10px;
+	text-indent: 5px;
+}
+
+article.emphasis img{
+	height: 80%;
+}
+
+article.videos{
+	display: flex;
+	gap: 20px;
+	padding-inline: 35px;
+	flex-direction: column;
+	background-color: var(--second-color);  
+}
+
+article.videos *{
+	color: var(--primary-color);
+}
+
+article.videos > aside > nav{
+	display: flex;
+	height: 20vw;
+	gap: 15px;
+	overflow-x: auto;
+	align-items: center;
+}
+
+article.videos > aside > div{
+	display: flex;
+	padding-bottom: 10px;
+	gap: 15px;
+	align-items: baseline;
+}
+
+article.videos > aside > div > p{
+	font-size: 1.3rem;
+}
+
+article.videos > aside > div > h1{
+	text-transform: capitalize;
+	font-size: 2rem;
+}
+
+article.videos > aside > nav{
+	padding-inline-end: 4%;
+}
+
+article.videos > aside > nav > img{
+	display: flex;
+	border-radius: 15px;
+	transition: .2s;
+	height: 90%;
+}
+
+article.videos > aside > nav > img:hover{
+	cursor: pointer;
+	height: 100%;
+}
