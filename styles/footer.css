@@ -25,3 +25,14 @@ footer a{
 footer *{
 	color: var(--second-color);
 }
+
+@media (max-width: 600px) {
+  footer{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  footer aside{
+    align-items: center;
+  }
+}

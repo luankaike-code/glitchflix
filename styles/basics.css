@@ -11,6 +11,8 @@
 *:root{
   --primary-color: #2d2d2d;
   --second-color: #fff;
+
+  --header-h: 10vh;
 }
 
 *::-webkit-scrollbar {
@@ -49,13 +51,13 @@ div.popup{
 div.popup > div{
   position: relative;
   transform: translateY(10%);
-  height: 80vh;
-  width: 80vw;
+  width: 60vw;
+  aspect-ratio: 16/9;
 }
 
 div.popup  iframe{
-  height: 100%;
   width: 100%;
+  height: 100%;
   border: solid 15px #fff;
   border-radius: 15px;
   background-color: #fff;
@@ -72,4 +74,10 @@ div.popup  span.btn-close{
   height: 35px;
   border-radius: 50%;
   background-color: #f00;
+}
+
+@media (max-width: 600px) {
+  div.popup > div{
+    width: 90vw;
+  }
 }

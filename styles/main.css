@@ -1,12 +1,12 @@
 article.emphasis{
 	display: flex;
-	padding-top: 15vh;
-	padding-inline: 15px;
+	padding-block: calc(var(--header-h) + 50px);
+  padding-inline: 15px;
 	background-color: var(--primary-color);
-	height: 70vh;
+	height: fit-content;
 	justify-content: space-evenly;
 }
-
+/* calc(var(--header-h) + 70vh + 50px) */
 article.emphasis > aside{
 	display: flex;
 	flex-direction: column;
@@ -26,14 +26,19 @@ article.emphasis > aside > p{
 	text-indent: 5px;
 }
 
+article.emphasis a{
+  display: flex;
+  justify-content: center;
+}
+
 article.emphasis img{
-	height: 80%;
+	width: 80%;
 }
 
 article.videos{
 	display: flex;
 	gap: 20px;
-	padding-inline: 35px;
+	padding: 35px;
 	flex-direction: column;
 	background-color: var(--second-color);  
 }
@@ -80,4 +85,29 @@ article.videos > aside > nav > img{
 article.videos > aside > nav > img:hover{
 	cursor: pointer;
 	height: 100%;
+}
+
+@media (max-width: 600px) {
+  article.emphasis{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  article.emphasis > aside{
+    width: 90%;
+  }
+
+  article.emphasis img{
+    width: 90%;
+    height: none;
+  }
+
+  article.videos div{
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  article.videos > aside > nav{
+    height: 60vw;
+  }
 }

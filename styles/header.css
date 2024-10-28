@@ -9,6 +9,7 @@ header{
 	padding-inline: 30px;
 	border-radius: 15px;
 	margin-top: 10px;
+  height: var(--header-h);
 	padding-block: 20px;
 	backdrop-filter: blur(30px);
 }
@@ -34,4 +35,10 @@ header > nav a{
 	font-size: 1.2rem;
 	text-decoration: none;
 	text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+  header > nav {
+    display: none;
+  }
 }
