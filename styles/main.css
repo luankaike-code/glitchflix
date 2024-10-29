@@ -2,37 +2,61 @@ article.emphasis{
 	display: flex;
 	padding-block: calc(var(--header-h) + 50px);
   padding-inline: 15px;
+  gap: 15px;
 	background-color: var(--primary-color);
 	height: fit-content;
 	justify-content: space-evenly;
 }
-/* calc(var(--header-h) + 70vh + 50px) */
+
 article.emphasis > aside{
 	display: flex;
 	flex-direction: column;
+  align-items: center;
 	gap: 15px;
-	width: 40%;
+	width: 80%;
 	height: 100%;
 }
 
 article.emphasis > aside > h1{
 	font-size: 2rem;
+  text-align: center;
 	text-transform: uppercase;
-	text-align: left;
 }
 
 article.emphasis > aside > p{
 	padding-inline: 10px;
+  text-align: center;
 	text-indent: 5px;
+  width: 80%;
 }
 
-article.emphasis a{
+article.comments{
   display: flex;
-  justify-content: center;
+  gap: 5px;
+  padding: 30px;
+}
+
+article.comments h2{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+article.comments p{
+  position: relative;
+  transform: translateX(20px);
+}
+
+article.comments p::before{
+  content: "━";
+  position: absolute;
+  left: -20px;
+  top: 0;
 }
 
 article.emphasis img{
 	width: 80%;
+  transform: translateX(10%);
+  aspect-ratio: 25/24;
 }
 
 article.videos{
@@ -100,6 +124,10 @@ article.videos > aside > nav > img:hover{
   article.emphasis img{
     width: 90%;
     height: none;
+  }
+
+  article.comments{
+    display: none;
   }
 
   article.videos div{
