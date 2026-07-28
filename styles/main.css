@@ -96,7 +96,7 @@ article.videos > aside > div > h1{
 }
 
 article.videos > aside > nav{
-	padding-inline-end: 4%;
+	padding-bottom: 8px;
 }
 
 article.videos > aside > nav > img{
