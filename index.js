@@ -1,6 +1,7 @@
 const series = {
   'digital circus': {
     firstRun: 2023,
+    lastRun: 2026,
     eps: [
       'HwAPLk_sQ3w',
       '4ofJpOEXrZs',
