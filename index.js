@@ -3,7 +3,6 @@ const series = {
     firstRun: 2023,
     eps: [
       'HwAPLk_sQ3w',
-      'FkXhKu80CWU',
       '4ofJpOEXrZs',
       'bKjfw77cxeQ',
     ]
