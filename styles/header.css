@@ -12,6 +12,7 @@ header{
   	height: var(--header-h);
 	padding-block: 20px;
 	backdrop-filter: blur(30px);
+	z-index: 50;
 }
 
 header > h2{
