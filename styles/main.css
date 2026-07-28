@@ -12,21 +12,27 @@ article.emphasis > aside{
 	display: flex;
 	flex-direction: column;
   align-items: center;
-	gap: 15px;
+	gap: 40px;
 	width: 80%;
 	height: 100%;
 }
 
-article.emphasis > aside > h1{
-	font-size: 2rem;
+article.emphasis > aside > article.about{
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  padding-inline: 10px;
+}
+
+article.emphasis > aside > article.about > h1{
   text-align: center;
+	font-size: 3rem;
+  font-weight: 900;
 	text-transform: uppercase;
 }
 
-article.emphasis > aside > p{
-	padding-inline: 10px;
+article.emphasis > aside > article.about > p{
   text-align: center;
-	text-indent: 5px;
   width: 80%;
 }
 
