@@ -5,6 +5,12 @@ const series = {
       'HwAPLk_sQ3w',
       '4ofJpOEXrZs',
       'bKjfw77cxeQ',
+      'Q9KWcWKo2T8',
+      'L4p2gN2CzsA',
+      'mOvhHim78YA',
+      'oaOG1xOk7XY',
+      'DMNlzf8PiEM',
+      'PVy-bcTsO8A'
     ]
   },
   'murder drones': {
