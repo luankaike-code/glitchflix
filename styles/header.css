@@ -27,10 +27,6 @@ header > nav{
 	gap: 30px;
 }
 
-header > nav img{
-	display: none;
-}
-
 header > nav a{
 	font-weight: 600;
 	font-size: 1.2rem;
