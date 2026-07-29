@@ -134,6 +134,12 @@ article.videos > aside > nav > img:hover{
 	height: 100%;
 }
 
+@media (max-width: 1000px) {
+  article.comments{
+    display: none;
+  }
+}
+
 @media (max-width: 600px) {
   article.emphasis{
     flex-direction: column;
@@ -147,10 +153,6 @@ article.videos > aside > nav > img:hover{
   article.emphasis img{
     width: 90%;
     height: none;
-  }
-
-  article.comments{
-    display: none;
   }
 
   article.videos div{
