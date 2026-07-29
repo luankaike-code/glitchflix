@@ -47,11 +47,17 @@ article.comments > div{
   background-color: var(--second-color);
   padding: 20px;
   height: fit-content;
+  transition-duration: .2s;
+}
+
+article.comments > div:hover {
+  transform: translateY(-20px);
 }
 
 article.comments > div  * {
   color: var(--primary-color);
 }
+
 
 article.comments h2{
   font-size: 1rem;
