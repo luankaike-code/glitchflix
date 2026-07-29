@@ -42,6 +42,17 @@ article.comments{
   padding: 30px;
 }
 
+article.comments > div{
+  border-radius: 15px;
+  background-color: var(--second-color);
+  padding: 20px;
+  height: fit-content;
+}
+
+article.comments > div  * {
+  color: var(--primary-color);
+}
+
 article.comments h2{
   font-size: 1rem;
   font-weight: 500;
