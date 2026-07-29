@@ -157,12 +157,16 @@ article.videos > aside > nav > img:hover{
 }
 
 @media (max-width: 600px) {
+  article.videos{
+    padding: 10px;
+  }
+
   article.videos div{
     flex-direction: column;
     gap: 5px;
   }
 
   article.videos > aside > nav{
-    height: 60vw;
+    height: 50vw;
   }
 }
