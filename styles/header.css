@@ -40,8 +40,13 @@ header > nav a{
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 560px) {
   header > nav {
     display: none;
+  }
+
+  header > h2 {
+	text-align: center;
+	width: 100%;
   }
 }
