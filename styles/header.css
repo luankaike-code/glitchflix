@@ -34,6 +34,12 @@ header > nav a{
 	text-transform: capitalize;
 }
 
+@media (max-width: 760px) {
+	header > nav{
+		margin-right: 0;
+	}
+}
+
 @media (max-width: 600px) {
   header > nav {
     display: none;
