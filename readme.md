@@ -2,7 +2,7 @@
 
 Um projeto desenvolvido para o Alura Start no 4º bimestre.
 
-A proposta original da Alura era criar uma "coleção de vídeos" utilizando apenas HTML e CSS. No entanto, por achar a estrutura estática muito simples, adicionei JavaScript para tornar o código mais dinâmico, limpo e fácil de manter.
+A proposta original da Alura era criar uma "coleção de vídeos" utilizando apenas HTML e CSS. No entanto, achei a estrutura simples, então adicionei JavaScript para tornar o código mais dinâmico, limpo e fácil de manter.
 
 ---
 
@@ -53,4 +53,17 @@ Essa decisão foi tomada porque:
 ##### Desafio de Reutilização
 Para evitar a duplicidade de código HTML, já que seria necessário ter um HTML de *pop-up* inteiro para cada vídeo, criei uma classe em JavaScript responsável por gerenciar a estrutura HTML de apenas um *pop-up*. 
 
-Dessa forma, o mesmo elemento HTML é reaproveitado: ao clicar em qualquer card, a classe intercepta o evento e atualiza dinamicamente os parâmetros do player com o ID do vídeo correspondente.
+Assim basta atualizar alguns valores para se ter qualquer *pop-up* necessário, no caso, o ID do vídeo.
+
+##### Desafio de Reutilização
+Para evitar a duplicidade de código HTML, já que seria necessário ter um HTML de *pop-up* inteiro para cada vídeo, criei uma classe em JavaScript responsável por gerenciar a estrutura HTML de apenas um *pop-up*. 
+
+Assim basta atualizar alguns valores para se ter qualquer *pop-up* necessário, no caso, o ID do vídeo.
+
+### 3. Responsividade
+
+#### Problema
+O projeto proposto não era responsivo, logo era inviável em aplicativos movéis (mais da metade da internet).
+
+#### Solução
+Preferir valores dinâmicos (como porcentagens e lagura de tela) no CSS e regras (como o @media) para situações mais drásticas.
