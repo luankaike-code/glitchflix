@@ -11,6 +11,7 @@
 *:root{
   --primary-color: #2d2d2d;
   --second-color: #fff;
+  --third-color: #383737;
 
   --header-h: 10vh;
 }
