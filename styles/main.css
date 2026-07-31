@@ -44,7 +44,7 @@ article.comments{
 
 article.comments > div{
   border-radius: 15px;
-  background-color: var(--second-color);
+  background-color: var(--third-color);
   padding: 20px;
   height: fit-content;
   transition-duration: .2s;
@@ -55,7 +55,7 @@ article.comments > div:hover {
 }
 
 article.comments > div  * {
-  color: var(--primary-color);
+  color: var(--second-color);
 }
 
 
@@ -87,11 +87,11 @@ article.videos{
 	gap: 20px;
 	padding: 35px;
 	flex-direction: column;
-	background-color: var(--second-color);  
+	background-color: var(--third-color);  
 }
 
 article.videos *{
-	color: var(--primary-color);
+	color: var(--second-color);
 }
 
 article.videos > aside > nav{
